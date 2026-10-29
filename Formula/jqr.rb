@@ -1,30 +1,30 @@
 class Jqr < Formula
   desc "Jq with JSON repair - filter truncated or mangled JSON"
   homepage "https://github.com/vlasky/jqr"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   depends_on "jq"
 
   on_macos do
     on_arm do
-      url "https://github.com/vlasky/jqr/releases/download/v1.1.0/jqr-1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "170f26df5536fc2042d3fe1e30e7a2b1509a1dc3e54e2d615d82489b900cd455"
+      url "https://github.com/vlasky/jqr/releases/download/v1.1.1/jqr-1.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a2ac25ed6f6c5db13d6de12e721843ecba3d03566218739c6e1bb9acc7cb605b"
     end
     on_intel do
-      url "https://github.com/vlasky/jqr/releases/download/v1.1.0/jqr-1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9c74d5d6b459e610984de9fc770c2f4dd0ef1666e0a22c9897c192918038be97"
+      url "https://github.com/vlasky/jqr/releases/download/v1.1.1/jqr-1.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0ddecf8d3e94f095b7febc2988613debbe8ee465e271dbe8b084dd1e2dce0916"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vlasky/jqr/releases/download/v1.1.0/jqr-1.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e9b478a56b49df5e5dacc0e91c63bd3861bbe1a496e8225204cb17964e7cb57f"
+      url "https://github.com/vlasky/jqr/releases/download/v1.1.1/jqr-1.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "49c03beaddb509b1f3da795b6dba5431c587098ca078fd3d1478554dd20c6d7e"
     end
     on_intel do
-      url "https://github.com/vlasky/jqr/releases/download/v1.1.0/jqr-1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8f4036cbc0858166fa608e44a8431e97999917c4386035f431782d324c774dfc"
+      url "https://github.com/vlasky/jqr/releases/download/v1.1.1/jqr-1.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b2fae4699ab9332165f64bb8d11a096dc69fee8caaee7ea9c426cd54c317072f"
     end
   end
 
